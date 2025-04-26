@@ -37,8 +37,8 @@ The server starts on `http://127.0.0.1:8080`.
 
 ## Endpoints
 1. **Post** `/shorten`
-**Description**: Shortens a URL and returns the shortened version.
-**Request**:
+- **Description**: Shortens a URL and returns the shortened version.
+- **Request**:
   - **Method**: POST
   - **Headers**: `Content-Type: application/json`
   - **Body**:
@@ -56,8 +56,8 @@ The server starts on `http://127.0.0.1:8080`.
     }
     ```
 2. **Get** `/{key}`
-**Description**: Redirects the user to the original URL corresponding to the shortened key.
-**Request**:
+- **Description**: Redirects the user to the original URL corresponding to the shortened key.
+- **Request**:
   - **Method**: GET
   - **URL**: `http://127.0.0.1:8080/<shortened_key>`
 **Response**:
